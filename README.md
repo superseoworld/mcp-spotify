@@ -1,9 +1,20 @@
 # MCP Spotify Server
 
+[![smithery badge](https://smithery.ai/badge/@superseoworld/mcp-spotify)](https://smithery.ai/server/@superseoworld/mcp-spotify)
+
 A Model Context Protocol (MCP) server that provides access to the Spotify Web API. This server enables interaction with Spotify's music catalog, including searching for tracks, albums, and artists, as well as accessing artist-specific information like top tracks and related artists.
 
 ## Installation
 
+### Installing via Smithery
+
+To install MCP Spotify Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@superseoworld/mcp-spotify):
+
+```bash
+npx -y @smithery/cli install @superseoworld/mcp-spotify --client claude
+```
+
+### Manual Installation
 ```bash
 npx -y @thomaswawra/server-spotify
 ```
